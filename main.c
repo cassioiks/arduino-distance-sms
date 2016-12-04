@@ -1,6 +1,6 @@
 #define trigPin 23
 #define echoPin 25
-#define NUMEROCELULAR "+555184500005"
+#define NUMEROCELULAR "+5551xxxxxxxx"
 #define MENSAGEM_OUT "Carro saiu da garagem"
 #define MENSAGEM_IN "Carro entrou na garagem"
 
