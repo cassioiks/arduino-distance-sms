@@ -1,7 +1,9 @@
 # arduino-distance-sms
 
 Código para arduino programado para ler valores de um sensor ultrasônico de distância, e enviar uma mensagem SMS caso a distância for maior que o alcance do sensor.
+
 O código desenvolvido foi baseado no código de [filipeflop][2], e a biblioteca utilizada para envio de sms pode ser vista [nesse repositório][3].
+
 Conforme instruído [aqui][2], o código GSM.cpp foi modificado para o Arduino Mega 2560, e as portas Tx e Rx do shield devem ser conectadas nas portas 50 e 51 do Arduino.
 
 ## Equipamento necessário
