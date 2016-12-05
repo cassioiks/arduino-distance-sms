@@ -4,8 +4,8 @@
 #define MENSAGEM_OUT "Carro saiu da garagem"
 #define MENSAGEM_IN "Carro entrou na garagem"
 
-#include "gsm_shield/SIM900.h"
-//Carrega a biblioteca SMS
+#include "SIM900.h"
+#include <SoftwareSerial.h>
 #include "gsm_shield/sms.h"
 
 SMSGSM sms;
@@ -53,7 +53,7 @@ int calculateDistance()
     distance = (duration / 2) / 29.1;
     return distance;
 }
-void sendSMS(char mensagem)
+void sendSMS(char* mensagem)
 {
     if (started)
     {
