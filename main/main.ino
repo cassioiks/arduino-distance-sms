@@ -53,7 +53,7 @@ int calculateDistance()
     distance = (duration / 2) / 29.1;
     return distance;
 }
-void sendSMS(String mensagem)
+void sendSMS(char mensagem)
 {
     if (started)
     {
